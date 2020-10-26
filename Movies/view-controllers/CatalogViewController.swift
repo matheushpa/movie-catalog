@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CatalogViewController.swift
 //  Movies
 //
 //  Created by Matheus Holanda Pinheiro de Albuquerque on 26/10/20.
@@ -7,13 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CatalogViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .blue
     }
-
-
 }
-
