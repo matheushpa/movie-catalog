@@ -29,7 +29,7 @@ class CatalogViewController: UIViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.showsVerticalScrollIndicator = false
-        collectionView.backgroundColor = .white
+        collectionView.backgroundColor = UIColor.init(netHex: kLightDarkColor)
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         collectionView.register(MovieCollectionViewCell.self, forCellWithReuseIdentifier: kMovieCollectionCellIdentifier)
         return collectionView
@@ -37,7 +37,7 @@ class CatalogViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .blue
+        self.title = "Movies"
         setupCollectionViewLayout()
     }
     
