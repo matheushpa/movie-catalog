@@ -22,7 +22,7 @@ class MainNavigationViewController: UINavigationController {
     func setupNavigationBar() {
         navigationBar.isTranslucent = false
 //        navigationBar.tintColor = UIColor.init(netHex: kBlueColor)
-//        navigationBar.barTintColor = UIColor.init(netHex: kBlueColor)
-//        navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white, NSAttributedString.Key.font: UIFont(name: kDefaultFont, size: 16) as Any]
+        navigationBar.barTintColor = .black
+        navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white, NSAttributedString.Key.font: UIFont(name: kDefaultFont, size: 16) as Any]
     }
 }
